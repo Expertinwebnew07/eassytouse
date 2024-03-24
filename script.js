@@ -9,7 +9,7 @@
  document.querySelector(".btn_Ask ") .onclick=()=>{
       let userName=prompt("Please Enter you full Name");
       document.querySelector(".btninput").innerHTML=` let b = ""Thanks " + ${'userName'} + "!" `;
-      document.querySelector(".btnoutput").innerHTML= "2"+"2" + "<br>"+ `Thanks ${userName} !`;
+      document.querySelector(".btnoutput").innerHTML= `Thanks ${userName} !`;
     }
     //btn_Comparison
     // for user lastname
